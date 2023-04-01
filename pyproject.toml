@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pydantic-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["Arthur Nunes <arthurnunesc@proton.me>"]
+readme = "README.md"
+packages = [{include = "pydantic_tutorial"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^1.10.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
